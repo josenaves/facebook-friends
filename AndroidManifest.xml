@@ -22,7 +22,7 @@
             
             <meta-data
                 android:name="com.facebook.sdk.ApplicationId"
-                android:value="546776102111460" />
+                android:value="@string/app_id" />
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

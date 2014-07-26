@@ -4,5 +4,6 @@
     <string name="app_name">Facebook Friends</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="app_id">546776102111460</string>
 
 </resources>
