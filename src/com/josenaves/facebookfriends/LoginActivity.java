@@ -76,10 +76,16 @@ public class LoginActivity extends FragmentActivity {
 	    }
 	};
 	
+	/*
+	 * Responds to changes on login
+	 */
 	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
 	    if (state.isOpened()) {
 	        Log.i(TAG, "Logged in...");
-	    } else if (state.isClosed()) {
+	        Intent intent = new Intent(this, FriendsActivity.class);
+	        startActivity(intent);
+	    } 
+	    else if (state.isClosed()) {
 	        Log.i(TAG, "Logged out...");
 	    }
 	}
