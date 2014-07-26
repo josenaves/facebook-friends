@@ -300,6 +300,7 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f07000a;
         public static final int hello_world=0x7f07001c;
         public static final int title_activity_login=0x7f07001b;
+        public static final int title_facebook_login=0x7f07001e;
     }
     public static final class style {
         /** 

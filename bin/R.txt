@@ -155,6 +155,7 @@ int string com_facebook_usersettingsfragment_logged_in 0x7f070009
 int string com_facebook_usersettingsfragment_not_logged_in 0x7f07000a
 int string hello_world 0x7f07001c
 int string title_activity_login 0x7f07001b
+int string title_facebook_login 0x7f07001e
 int style AppBaseTheme 0x7f080003
 int style AppTheme 0x7f080004
 int style com_facebook_loginview_default_style 0x7f080000
