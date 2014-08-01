@@ -17,7 +17,6 @@ public class LoginActivity extends FragmentActivity {
 	
 	private UiLifecycleHelper uiHelper;
 	
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -82,6 +81,9 @@ public class LoginActivity extends FragmentActivity {
 	private void onSessionStateChange(Session session, SessionState state, Exception exception) {
 	    if (state.isOpened()) {
 	        Log.i(TAG, "Logged in...");
+	        
+	        ApplicationData.getInstance().setSession(session);
+	        
 	        Intent intent = new Intent(this, FriendsActivity.class);
 	        startActivity(intent);
 	    } 
